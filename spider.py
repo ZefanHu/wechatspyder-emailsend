@@ -33,13 +33,8 @@ def send_email(subject, body, to_email):
 
 
 headers = {
-    "cookie": "appmsglist_action_3927278544=card; RK=my+AktDQZ9; ptcz=02e0a91d63b0b3b80d20d77ba9d5a115396e405288336a8fd65c86ff113b0d84; pgv_pvid=5112798840; \
-    o_cookie=1371738978; pac_uid=1_1371738978; eas_sid=x1G6e5g4s9r409R3Z8b2Y1C7b0; ua_id=ZnZexjXIpvjrO6FDAAAAAKWPoksVbeplHST5ihsYKBo=; wxuin=57093901569073; \
-    mm_lang=zh_CN; _clck=1c3dtht|1|f2x|0; tvfe_boss_uuid=f37539dea40c434e; Qs_lvt_323937=1661926412,1661928399,1674526381; Qs_pv_323937=1496408176218038500,\
-    3675276323908851700,4381077217831457300; ptui_loginuin=1336942450@qq.com; fqm_pvqid=3723974f-d66f-41f7-bd72-1eacbfddd8d8; pgv_info=ssid=s8678376860; \
-    uuid=d046dd459a403be5ac0eb672cfad45d0; rand_info=CAESIEHtUO0TwAx/GqVl2zm4gp6Ja2AF8MqqZPe3/MMPLyOc; slave_bizuin=3927278544; data_bizuin=3927278544; \
-    bizuin=3927278544; data_ticket=JQJaQKmTcFtFGt9c2MYNjiGsfEzo5oCWzkMBCXHPuVH8+As9SfudrdZP62/jWq0r; slave_sid=bnBOeUYwaDR6V1h6NUVGRG9KeTB3ZW42QUxxRmNvc0FCV2xqTVpyM0FKYlZacTNDbmM4TERhNFNYRlh5a3d1cDUwMjhGX2VPMGtTWjdrZ0lxOXNrZDMzQmRDSkthQU9ib0xrWmoyZ3JHQVoxcVo5cTNubGF2TXMxOXExWjVCQVJDdnZ3ekpOMkF1RHUxUnJy; \
-    slave_user=gh_20cd46a1f992; xid=90d47b8c18b9902dc428448b9ebbf585; cert=GnyolHvmGZRqUe5xiwHwiQKwFVp5klOg; rewardsn=; wxtokenkey=777",
+  #/cgi-bin/appmsg的request header里面的cookie
+    "cookie": "",
     "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
 }
 url = 'https://mp.weixin.qq.com/cgi-bin/appmsg'
